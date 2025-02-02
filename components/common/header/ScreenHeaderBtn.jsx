@@ -11,7 +11,7 @@ const ScreenHeaderBtn = ({ iconUrl, dimension, handlePress }) => {
         style={styles.btnImg(dimension)}
       />
     </TouchableOpacity>
-  );
+  )
 };
 
 export default ScreenHeaderBtn;
